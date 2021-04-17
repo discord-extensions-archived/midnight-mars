@@ -1,0 +1,106 @@
+@-moz-document domain("discord.com") {
+    /* ==UserStyle==
+    @name         Midnight Mars
+    @description  A simple, nice looking and deep purple theme inspired by midnight on Mars!
+    @author       LuckFire#4800
+    @namespace    github.com/LuckFire/midnight-mars
+    @version      1.0.0
+    ==/UserStyle== */
+
+    @import url("https://luckfire.github.io/midnight-mars/src/support/_compiled.css");
+    @import url("https://raw.githack.com/NYRI4/Discolored/master/main.css");
+    @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+    @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
+    @import url("https://discordstyles.github.io/RadialStatus/base.css");
+
+    :root {
+        /* ----------- MidnightMars Base ----------- */
+        /* ----- Default Theme --- */
+        --midnightmars-primary: #36263A;
+        --midnightmars-primary-alt: #432e4d;
+        --midnightmars-secondary: #281D30;
+        --midnightmars-secondary-alt: #211828;
+        --midnightmars-tertiary: #1a141f;
+        --midnightmars-modifiers: 168, 113, 182;
+        --midnightmars-accent: #9864a3;
+        --midnightmars-accent-dark: #895a92;
+        --midnightmars-green: #70ad85;
+        --midnightmars-pill-buttons: rgba(132, 101, 138, 0.522);
+        /* ----- Modals & Popouts ---  */
+        --midnightmars-layer-primary: var(--midnightmars-primary);
+        --midnightmars-layer-secondary: var(--midnightmars-secondary);
+        --midnightmars-layer-secondary-alt: var(--midnightmars-secondary-alt);
+        --midnightmars-layer-outline: rgb(26, 20, 31, 0.5);
+        /* ----- Separation --- */
+        --border-radius: 5px;
+        --separation-padding: 7px;
+
+        /* ---------- MidnightMars Addons ---------- */
+        /* ----- Chat Indicator --- */
+        --border-thickness: 3px;
+        --border-color: var(--midnightmars-accent);
+        --border-hover-color: #64416b;
+        --border-roundness: 3px;
+        --transition-time: 500ms;
+        /* ----- Channel Indicators --- */
+        --unread-badge: rgba(168, 113, 182, 0.55);
+        --unread-bg: rgba(168, 113, 182, 0.045);
+        --selected-badge: rgb(168, 113, 182);
+        --selected-bg: rgba(168, 113, 182, 0.15);
+        --selected-bg-hover: rgba(168, 113, 182, 0.23);
+        --hovered-bg: rgba(168, 113, 182, 0.09);
+        --bg-rounding: 0 5px 5px 0;
+        --border-info: 4px solid;
+        /* ----- RadialStatus by Gibbu --- */
+        --rs-small-spacing: 2px !important;
+        --rs-large-spacing: 2px !important;
+        --rs-width: 2px !important;
+        --rs-avatar-shape: 50%;
+        --rs-online-color: var(--midnightmars-green) !important;
+        --rs-idle-color: #faa61a;
+        --rs-dnd-color: #f04747;
+        --rs-offline-color: #636b75;
+        --rs-streaming-color: #643da7;
+        --rs-invisible-color: #747f8d;
+
+        /* ---------- Base Discord Colors ---------- */
+        /* ----- Default Theme --- */
+        --background-primary: var(--midnightmars-primary);
+        --background-secondary: var(--midnightmars-secondary);
+        --background-secondary-alt: var(--midnightmars-secondary-alt);
+        --background-tertiary: var(--midnightmars-tertiary);
+        --background-accent: var(--midnightmars-accent);
+        --background-floating: #19131f;
+        --channeltextarea-background: var(--midnightmars-secondary-alt);
+        --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+        --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+        /* ----- Text --- */
+        --text-normal: #fbfbfb;
+        --text-muted: #b2a6b6;
+        --text-link: #b6ecc8;
+        --channels-default: #b2a6b6;
+        --interactive-normal: #c8c8c8;
+        --interactive-hover: #dcddde;
+        --interactive-active: var(--text-normal);
+        --interactive-muted: #6f5e72;
+        --header-primary: var(--text-normal);
+        --header-secondary: #c9c9c9;
+        /* ----- Modifiers --- */
+        --background-modifier-selected: rgb(var(--midnightmars-modifiers), 0.09);
+        --background-modifier-hover: rgb(var(--midnightmars-modifiers), 0.12);
+        --background-modifier-active: rgb(var(--midnightmars-modifiers), 0.18);
+        --background-modifier-accent: rgba(170, 150, 176, 0.149);
+        /* ----- Toasts --- */
+        --toast-background: var(--midnightmars-primary);
+        --toast-header: var(--midnightmars-tertiary);
+        --toast-contents: var(--midnightmars-secondary);
+        --toast-box-shadow: rgba(0, 0, 0, .2);
+        --toast-border: var(--midnightmars-tertiary);
+        /* ----- Deprecated --- */
+        --deprecated-card-bg: var(--midnightmars-secondary);
+        --deprecated-card-editable-bg: var(--midnightmars-secondary);
+        --deprecated-text-input-border-disabled: var(--midnightmars-tertiary);
+        --deprecated-quickswitcher-input-background: var(--midnightmars-primary);
+        --deprecated-quickswitcher-input-placeholder: var(--text-muted);
+    }
+}

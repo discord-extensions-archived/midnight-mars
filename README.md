@@ -9,6 +9,15 @@ For Powercord & Vizality installation, go to **Themes -> Open CMD / Powershell /
 git clone https://github.com/LuckFire/midnight-mars
 ```
 
+**For BetterDiscord:**
+- [Direct Download](https://betterdiscord.net/ghdl?id=3637)
+- [View Source](https://luckfire.github.io/midnight-mars/src/support/_compiled.css)
+
+**For Browser / Web:**
+1. Install the Stylus extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
+2. After installing, head over to [this link](https://luckfire.github.io/midnight-mars/src/support/MidnightMars.user.css).
+3. Press the "Install Style" button.
+
 # Credits
 A big thank you to everyone for the inspiration and help with making this theme!
 - **[Pavui](https://github.com/Pavui/)** for helping me stay sane and be a huge inspiration and help on getting this theme done.
