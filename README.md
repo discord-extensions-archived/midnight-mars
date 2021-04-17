@@ -11,7 +11,7 @@ git clone https://github.com/LuckFire/midnight-mars
 
 **For BetterDiscord:**
 - [Direct Download](https://betterdiscord.net/ghdl?id=3637)
-- [View Source](https://luckfire.github.io/midnight-mars/src/support/_compiled.css)
+- [View Source](https://luckfire.github.io/midnight-mars/src/support/compiled.css)
 
 **For Browser / Web:**
 1. Install the Stylus extension for [Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) / [Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) / [Opera](https://github.com/openstyles/stylus/wiki/Opera,-Outdated-Stylus).
