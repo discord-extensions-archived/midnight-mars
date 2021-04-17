@@ -1,0 +1,9 @@
+{
+    "name": "Midnight Mars",
+    "description": "A simple, nice looking and deep purple theme inspired by midnight on Mars!",
+    "version": "1.0.0",
+    "author": "LuckFire#4800",
+    "theme": "index.scss",
+    "consent": "true",
+    "license": "MIT"
+}

@@ -1,0 +1,40 @@
+#app-mount {
+    .container-3Mxszk {
+        position: relative;
+        background-color: var(--background-tertiary);
+        border-radius: var(--border-radius);
+        margin: var(--separation-padding) calc(var(--separation-padding) * 2) var(--separation-padding) 0;
+        left: var(--separation-padding);
+
+        .installationPath-3cStrB {
+            box-shadow: 0 1px 0 0 var(--background-modifier-accent);
+
+            circle.background-yZEZik {
+                stroke: var(--background-modifier-accent);
+            }
+            .defaultIndicator-3WqGFB {
+                background-color: var(--background-modifier-accent);
+            }
+            .rowBody-3dJTTZ {
+                color: var(--text-muted);
+            }
+        }
+
+        .hiddenLibraryApplication-T6N3U1 {
+            border-bottom-color: var(--background-modifier-accent);
+        
+            &::before {
+                background-color: var(--background-secondary);
+                border-color: var(--background-tertiary);
+            }
+
+            .restoreButton-3jU0Z6 {
+                background-color: var(--background-primary);
+                box-shadow: 0 0 0 1px var(--midnightmars-layer-outline), 0 1px 5px 0 rgba(0,0,0,.3);
+            }
+            .applicationSubText-2V8LSK {
+                color: var(--text-muted);
+            }
+        }
+    }
+}

@@ -1,0 +1,99 @@
+#app-mount .layer-3QrUeG[aria-label*="USER_SETTINGS"] {
+    // my account
+    .background-1QDuV2 {
+        --padding: 20px;
+        background-color: transparent !important;
+        padding: 0;
+
+        .profile-1eT9hT {
+            background-color: var(--background-secondary);
+            border: 1px solid var(--background-tertiary);
+            border-radius: var(--border-radius);
+            padding: var(--padding);
+        }
+        .fieldList-21DyL8 {
+            background-color: var(--background-secondary);
+            border: 1px solid var(--background-tertiary);
+            border-radius: var(--border-radius);
+            margin-top: 5px;
+            padding: var(--padding);
+        }
+    }
+
+    // authorized apps
+    .authedApp-mj2Hmd {
+        background-color: var(--background-secondary);
+    }
+
+    // connections
+    .connection-1fbD7X {
+        background-color: var(--background-secondary-alt);
+    }
+    .connectionHeader-2MDqhu {
+        background-color: var(--background-secondary);
+    }
+
+    // subscriptions
+    .subscriptionDetails-1dUmjl,
+    .sectionAccountCredit-1uNhnJ {
+        border-color: var(--background-modifier-accent);
+    }
+    .accountCreditRow-SHgyi0 {
+        border-bottom: none;
+    }
+
+    // billing
+    .paymentPane-3bwJ6A {
+        background-color: var(--background-secondary);
+
+        .paginator-166-09, .bottomDivider-1K9Gao {
+            background-color: var(--background-secondary);
+        }
+
+        .bottomDivider-1K9Gao {
+            border-bottom-color: var(--background-primary);
+        }
+    }
+    .codeRedemptionRedirect-1wVR4b {
+        background-color: var(--background-secondary);
+        border-color: var(--background-tertiary);
+    }
+
+    // voice & video
+    .progress-1IcQ3A {
+        background-color: rgb(255, 255, 255, 0.3);
+    }
+    .notches-1sAcEM {
+        background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='20' fill='%2336263A'%3E%3Cpath fill-rule='evenodd' d='M0 0h8v20H0V0zm4 2a2 2 0 00-2 2v12a2 2 0 104 0V4a2 2 0 00-2-2z'/%3E%3C/svg%3E");
+    }
+    .previewOverlay-2O7_KC {
+        background-color: var(--background-secondary);
+        border-color: var(--background-tertiary);
+    }
+
+    // game activity
+    .notDetected-33MY4s {
+        background-color: rgb(255, 255, 255, 0.15);
+    }
+    .nowPlaying-284llR {
+        background-color: var(--midnightmars-green);
+    }
+    .game-1ipmAa {
+        box-shadow: 0 1px 0 0 var(--background-modifier-accent);
+    }
+
+    // overlay
+    .wrapper-3jrx9n {
+        border-color: var(--midnightmars-accent);
+    }
+    .option-n0icdO {
+        background-color: rgb(255, 255, 255, 0.2);
+        &:hover {
+            background-color: var(--midnightmars-accent)
+        }
+
+        &.selected-mKYnfr {
+            background-color: var(--midnightmars-accent)
+        }
+    }
+}

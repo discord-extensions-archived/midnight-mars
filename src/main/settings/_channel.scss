@@ -1,0 +1,15 @@
+#app-mount [aria-label="CHANNEL_SETTINGS"] {
+    .allow-1PzSY3 {
+        &.selected-2YhbGh {
+            background-color: var(--midnightmars-green);
+
+            svg path {
+                fill: #fff;
+            }
+        }
+
+        svg path {
+            fill: var(--midnightmars-green);
+        }
+    }
+}

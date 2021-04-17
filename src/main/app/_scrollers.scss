@@ -1,0 +1,20 @@
+#app-mount .scrollerBase-289Jih {
+    &.disableScrollAnchor-3V9UtP,
+    &.auto-Ge5KZx {
+        &::-webkit-scrollbar {
+            &-thumb {
+                background-color: var(--background-secondary-alt);
+                border-radius: var(--border-radius);
+            }
+
+            &-track {
+                background-color: var(--background-secondary);
+                border-radius: var(--border-radius);
+            }
+        }
+    }
+
+    &.thin-1ybCId::-webkit-scrollbar-thumb {
+        background-color: var(--background-secondary-alt);
+    }
+}

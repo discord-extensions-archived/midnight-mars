@@ -1,0 +1,69 @@
+#app-mount .guilds-1SWlCJ {
+    border-radius: var(--border-radius);
+    margin-top: var(--separation-padding);
+    margin-bottom: var(--separation-padding);
+    margin-left: var(--separation-padding);
+    margin-right: -7px;
+
+    .homeIcon-FuNwkv {
+        --scaling: 45px;
+        position: absolute;
+        margin-left: 6px;
+        width: var(--scaling);
+        height: var(--scaling);
+
+        path {
+            d: path('M5.2076 2.5672C6.32883 2.9392 7.44289 3.33418 8.57281 3.67624C9.70229 4.01762 10.832 4.45898 11.9898 4.579C13.432 4.72875 14.7947 3.66791 15.253 2.26815C15.4902 1.5426 15.8551 1.76598 16.2647 2.02855C17.9041 3.07993 18.9371 4.63215 19.487 6.44558C19.8361 7.59784 19.885 8.85078 19.9945 10.0654C20.055 10.7352 19.6125 11.1562 19.039 11.4571C15.7807 13.1669 12.7986 12.5231 9.86645 10.5453C8.26883 9.4678 6.56378 8.50355 4.79731 7.74895C3.89698 7.36433 2.75478 7.50733 1.72156 7.5008C0.576228 7.49404 0.174424 7.0734 0.625366 6.04542C1.55271 3.93024 2.54729 2.76446 5.2076 2.5672Z M0.00127989 10.8501C-0.0113201 9.08818 0.0452709 9.14162 1.28804 8.84716C3.83927 8.2424 5.91122 9.23853 7.91003 10.6289C9.39045 11.6582 10.8204 12.7635 12.6092 13.2616C14.5881 13.8131 16.5118 13.7634 18.4321 13.033C18.7038 12.9299 19.0316 12.9767 19.3333 12.9542C19.2876 13.2578 19.2958 13.5832 19.1875 13.8619C18.0008 16.9159 14.4909 17.5207 11.5829 16.2361C10.7216 15.8557 9.85443 15.4592 8.95209 15.2079C7.17014 14.7116 5.43309 15.5173 4.69629 17.2028C4.36694 17.9557 4.07205 17.8815 3.53222 17.4804C1.15609 15.7131 0.269864 13.205 0.00127989 10.8501Z M15.1111 18.7597C13.8718 19.1513 12.8584 19.5393 11.8124 19.7863C10.04 20.2047 8.29907 20.0046 6.64536 19.2218C5.60727 18.7301 5.4894 17.6205 6.35311 16.8698C7.20002 16.1334 8.19823 16.0786 9.14643 16.4377C10.9023 17.1031 12.5468 18.0888 14.4796 18.2191C14.6111 18.2277 14.7308 18.426 15.1111 18.7597Z M5.33334 1.04188C6.25778 0.747008 7.16327 0.346311 8.11087 0.180513C9.68754 -0.0954561 11.2763 -0.102627 12.8166 0.498202C13.5141 0.770042 14.0356 1.19182 13.9981 1.94822C13.96 2.70856 13.3598 3.18791 12.672 3.27571C11.9074 3.37327 11.0689 3.3574 10.3351 3.14684C8.78954 2.70313 7.29134 2.10056 5.77462 1.56058C5.64545 1.51429 5.52334 1.44822 5.39769 1.39151C5.37654 1.27482 5.35471 1.15835 5.33334 1.04188Z') !important;
+        }
+    }
+
+    .scroller-1Bvpku {
+        background-color: var(--midnightmars-secondary);
+        padding-top: calc(var(--separation-padding) + 2px);
+
+        .expandedFolderBackground-1cujaW, 
+        .folder-1hbNCn[aria-expanded="true"] {
+            background-color: var(--midnightmars-primary);
+        }
+        
+        .circleIconButton-1QV--U {
+            background-color: var(--midnightmars-primary-alt);
+
+            .circleIcon-1-oi1i,
+            svg {
+                path {
+                    color: var(--midnightmars-green);
+                }
+            }
+
+            &:hover {
+                background-color: var(--midnightmars-green);
+
+                .circleIcon-1-oi1i,
+                svg {
+                    path {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    
+    .tutorialContainer-2sGCg9 {
+        .childWrapper-anI2G9 {
+            background-color: var(--midnightmars-primary-alt);
+        }
+
+        .selected-bZ3Lue .childWrapper-anI2G9 {
+            background-color: var(--background-accent);
+        }
+    }
+
+    .childWrapper-anI2G9 {
+        background-color: var(--midnightmars-primary-alt);
+
+        &:hover {
+            background-color: var(--midnightmars-accent);
+        }
+    }
+}

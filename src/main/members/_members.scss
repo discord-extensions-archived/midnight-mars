@@ -1,0 +1,18 @@
+#app-mount {
+    .chatContent-a9vAAp::before {
+        content: "";
+        position: absolute;
+        border-top-left-radius: var(--border-radius);
+        box-shadow: 0 -25px 0 0 var(--background-primary);
+        top: 0;
+        right: -30px;
+        height: 50px;
+        width: 30px;
+    }
+
+    .membersWrap-2h-GB4 .members-1998pB {
+        margin-top: calc(var(--separation-padding) - 2px);
+        margin-left: calc(var(--separation-padding) - 2px);
+        border-radius: var(--border-radius);
+    }
+}

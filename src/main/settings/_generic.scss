@@ -1,0 +1,83 @@
+#app-mount .layer-3QrUeG[aria-label*="_SETTINGS"] {
+    background-color: transparent;
+    margin: var(--separation-padding);
+
+    .standardSidebarView-3F1I7i {
+        background-color: transparent;
+    }
+    .contentRegion-3nDuYy {
+        border-radius: var(--border-radius);
+    }
+    .contentRegionScroller-26nc1e {
+        border-radius: var(--border-radius);
+    }
+    .sidebarRegionScroller-3MXcoP {
+        border-radius: var(--border-radius);
+        margin-right: var(--separation-padding);
+    }
+
+    // esc
+    .closeButton-1tv5uR {
+        border-color: var(--background-secondary-alt);
+
+        &:hover {
+            background-color: var(--background-secondary-alt);
+        }
+    }
+    .keybind-KpFkfr {
+        color: var(--text-normal);
+    }
+
+    // all cards
+    .card-FDVird {
+        &::before {
+            background-color: var(--background-secondary);
+            border-color: var(--background-tertiary);
+        }
+        .button-2CgfFz {
+            background-color: var(--background-primary);
+            box-shadow: 0 0 0 1px var(--midnightmars-layer-outline), 0 1px 5px 0 rgba(0,0,0,.3);
+        }
+        .hoverRoll-YK53gQ {
+            color: var(--text-muted);
+        }
+    }
+
+    // sliders
+    .marginTop20-3TxNs6,
+    .flexChild-faoVW3 {
+        .bar-2Qqk5Z {
+            background-color: #5E5161;
+    
+            .barFill-23-gu- {
+                background-color: var(--midnightmars-accent);
+            }
+        }
+    }
+    .markDash-3hAolZ {
+        background-color: #5E5161;
+    }
+    .markValue-2DwdXI {
+        color: #89798d;
+    }
+
+    // raido boxes
+    .checkbox-1ix_J3 {
+        background-color: var(--midnightmars-accent) !important;
+        border-color: var(--midnightmars-accent) !important;
+    }
+    .radioIconForeground-XwlXQN {
+        color: var(--midnightmars-accent)
+    }
+    
+    // icon / avatar
+    .avatarUploaderInner-3UNxY3 {
+        background-color: var(--midnightmars-accent);
+    }
+
+    // unsaved
+    .noticeRegion-1YviSH > div[style="background-color: rgba(32, 34, 37, 0.9);"] {
+        background-color: var(--background-tertiary) !important;
+        transition: 200ms;
+    }
+}

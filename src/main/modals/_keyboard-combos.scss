@@ -1,0 +1,24 @@
+#app-mount .keyboardShortcutsModal-3piNz7 {
+    background-color: var(--background-primary);
+    box-shadow: 0 0 0 1px var(--midnightmars-layer-outline), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+
+    .modalTitle-37O4n6 {
+        background-color: var(--midnightmars-layer-secondary-alt);
+        color: var(--header-primary);
+    }
+
+    .modalSubtitle-1Pj5nv {
+        background-color: var(--midnightmars-layer-secondary-alt);
+        color: var(--text-normal);
+        border-bottom: 1px solid var(--midnightmars-tertiary);
+        padding-top: 5px;
+        margin-top: -5px;
+    }
+
+    .keybindGroup--6Qp-w {
+        .keybindDescription-2RDbC2 {
+            color: var(--header-secondary);
+            opacity: 0.9;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+#app-mount .layer-3QrUeG[aria-label*="GUILD_SETTINGS"] {
+    // emoji
+    .inputMini-2xQV9P {
+        background-color: var(--background-secondary-alt);
+    }
+
+    // aduit log
+    .auditLog-3jNbM6 {
+        background-color: var(--background-secondary);
+        border-color: var(--background-tertiary);
+
+        .headerExpanded-CUEwZ5 {
+            background-color: var(--background-secondary-alt);
+        }
+        .changeDetails-bk98pu {
+            background-color: var(--background-secondary);
+        }
+        .typeCreate-1kfBMl {
+            color: var(--midnightmars-green);
+        }
+    }
+
+    // server boost status
+    .background-3xPPFc {
+        color: var(--background-secondary);
+    }
+    .tierInProgress-3mBoXq {
+        background-color: var(--background-secondary);
+    }
+    .tierHeaderLocked-1a2opw {
+        background-color: var(--background-secondary-alt);
+    }
+    .tierBody-x9kBBp {
+        background-color: var(--background-secondary);
+    }
+}

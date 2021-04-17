@@ -1,0 +1,19 @@
+#app-mount .panels-j1Uci_ {
+    background-color: var(--background-secondary);
+    margin-top: var(--separation-padding);
+    margin-bottom: var(--separation-padding);
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column-reverse;
+
+    .alignStretch-DpGPf3 {
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--border-radius);
+    }
+
+    .activityPanel-28dQGo,
+    .wrapper-24pKcD .container-1giJp5 {
+        border-top: 2px dotted var(--background-modifier-accent);
+        border-bottom: none;
+    }
+}

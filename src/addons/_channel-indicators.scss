@@ -1,0 +1,73 @@
+#app-mount {
+    // Badges
+    .modeSelected-346R90,
+    .modeUnread-1qO3K1 {
+        &::before {
+            content: "";
+            position: absolute;
+            border-radius: var(--border-radius);
+            height: 32px;
+            top: 1px;
+            left: 2px;
+        }
+    }
+    .channel-2QD9_O.selected-aXhQR6::before {
+        content: "";
+        position: absolute;
+        border-radius: var(--border-radius);
+        height: 42px;
+        top: 1px;
+        left: -6px;
+    }
+
+    // Channel Selected
+    .modeSelected-346R90 {
+        .content-1x5b-n {
+            background-color: var(--selected-bg);
+
+            &:hover {
+                background-color: var(--selected-bg-hover);
+            }
+        }
+        
+        &::before {
+            border-left: var(--border-info) var(--selected-badge);
+        }
+    }
+    .channel-2QD9_O.selected-aXhQR6 {
+        .layout-2DM8Md {
+            background-color: var(--selected-bg);
+
+            &:hover {
+                background-color: var(--selected-bg-hover);
+            }
+        }
+
+        &::before {
+            border-left: var(--border-info) var(--selected-badge);
+        }
+    }
+
+    // Channel Unread
+    .unread-2lAfLh {
+        display: none;
+    }
+    .modeUnread-1qO3K1 {
+        .content-1x5b-n {
+            background: var(--unread-bg);
+        }
+
+        &::before {
+            border-left: var(--border-info) var(--unread-badge);
+        }
+    }
+
+    // Channel Hover
+    .modeUnread-1qO3K1,
+    .wrapper-2jXpOf:not(.modeSelected-346R90),
+    .channel-2QD9_O.container-2Pjhx-:not(.selected-aXhQR6) {
+        .content-1x5b-n:hover {
+            background: var(--hovered-bg);
+        }
+    }
+}

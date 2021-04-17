@@ -1,0 +1,44 @@
+#app-mount {
+    .calendarPicker-2yf6Ci .react-datepicker {
+        background-color: var(--midnightmars-secondary);
+    
+        .react-datepicker__navigation {
+            border-color: var(--background-floating);
+        }
+    
+        .react-datepicker__header {
+            background-color: var(--midnightmars-secondary);
+            border-color: var(--background-modifier-accent);
+    
+            .react-datepicker__current-month {
+                border-bottom-color: var(--background-modifier-accent);
+            }
+        }
+    
+        .react-datepicker__day--today::after {
+            background-color: var(--midnightmars-accent);
+        }
+    
+        .react-datepicker__day {
+            border-top-color: var(--background-tertiary);
+            border-left-color: var(--background-tertiary);
+    
+            &:hover:not(.react-datepicker__day--disabled) {
+                background-color: var(--midnightmars-accent);
+            }
+        }
+    
+        .react-datepicker__day--outside-month,
+        .react-datepicker__day--disabled {
+            background-color: var(--midnightmars-secondary-alt);
+        }
+    }
+
+    .datePickerHint-3Q1Udw {
+        border-top-color: var(--background-modifier-accent);
+
+        .hintValue-29ny8Z {
+            background-color: var(--midnightmars-accent);
+        }
+    }
+}

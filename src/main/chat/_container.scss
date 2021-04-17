@@ -1,0 +1,86 @@
+#app-mount {
+    .chat-3bRxxu {
+        background-color: var(--background-tertiary);
+        border-radius: var(--border-radius);
+        margin: var(--separation-padding) calc(var(--separation-padding) * 2) var(--separation-padding) 0;
+        left: var(--separation-padding);
+
+        .content-yTz4x3 .chatContent-a9vAAp {
+            background-color: var(--background-primary);
+            border-bottom-right-radius: var(--border-radius);
+        }
+    }
+
+    // New Messages
+    .newMessagesBar-265mhP {
+        background-color: var(--background-accent);
+        border-bottom-right-radius: var(--border-radius);
+        border-bottom-left-radius: var(--border-radius);
+    }
+    // New Messages Separator
+    .isUnread-3Ef-o9 {
+        background-color: var(--background-accent);
+        border-color: var(--background-accent);
+
+        .content-1o0f9g {
+            color: var(--text-normal);
+        }
+
+        .unreadPill-2HyYtt {
+            background-color: var(--background-accent);
+
+            .unreadPillCap-3_K2q2 .unreadPillCapStroke-7rkHbg {
+                fill: var(--background-accent);
+                color: var(--background-accent);
+            }
+        }
+    }
+
+    // Message Separation
+    .message-2qnXI6 .buttons-cl5qTG .wrapper-2aW0bm{
+        background-color: var(--background-secondary-alt);
+        filter: drop-shadow(0 0 8px var(--background-tertiary));
+    }
+    .message-2qnXI6.groupStart-23k01U {
+        &::after {
+            content: "";
+            position: absolute;
+            background-color: var(--background-modifier-accent);
+            width: 97.8%;
+            height: 1px;
+            top: 0;
+            left: 16px;
+        }
+        &:not(.compact-T3H92H):after {
+            top: -9px;
+        }
+    }
+    .divider-3_HH5L {
+        + .message-2qnXI6.groupStart-23k01U::after {
+            content: none;
+        }
+    }
+    .container-3RCQyg {
+        border: none;
+    }
+
+    // --- i have it setup this way cause global variables mmm
+    .invite-18yqGF { // listen along
+        background-color: var(--background-secondary);
+        border-color: var(--background-secondary-alt);
+    }
+    .tile-2OwFgW { // gifts & games
+        background-color: var(--background-secondary);
+
+        &:hover {
+            background-color: var(--background-secondary-alt);
+        }
+    }
+    .spoilerText-3p6IlD.hidden-HHr2R { // spoilers
+        background-color: var(--background-secondary);
+
+        &:hover {
+            background-color: var(--background-secondary);
+        }
+    }
+}

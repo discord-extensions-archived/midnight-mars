@@ -1,0 +1,35 @@
+#app-mount {
+    // generic buttons
+    .lookFilled-1Gx00P {
+        &.colorBrand-3pXr91 {
+            background-color: var(--midnightmars-accent);
+    
+            &:not([disabled]):hover {
+                background-color: var(--midnightmars-accent-dark);
+            }
+        }
+        &.colorGrey-2DXtkV,
+        &.colorPrimary-3b3xI6 {
+            background-color: rgb(255, 255, 255, 0.1);
+
+            &:not([disabled]):hover {
+                background-color: rgb(255, 255, 255, 0.2);
+            }
+        }
+    }
+
+    // pill buttons
+    .container-3auIfb {
+        transition: 250ms;
+
+        &[style="opacity: 1; background-color: rgb(114, 118, 125);"] {
+            background-color: var(--midnightmars-pill-buttons) !important;
+        }
+        &:not([style="opacity: 1; background-color: rgb(114, 118, 125);"]) {
+            background-color: var(--midnightmars-green) !important;
+        }
+        &[style="opacity: 1; background-color: rgb(81, 162, 128);"] {
+            background-color: #649775 !important;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.userPopout-3XzG_A {
+	transform:translateZ(0);
+
+    .wrapper-3t9DeA::after {
+        content: '';
+        position: fixed;
+        top: -2px !important;
+        left: -1px !important;
+        width: 100.5%;
+        height: 100%;
+        z-index: -1;
+        pointer-events: none;
+        opacity: .5;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: var(--user-popout-position) center;
+        background-image: var(--user-background);
+    }
+
+    .header-2BwW8b, .scroller-2FKFPG, .footer-1fjuF6, .body-3iLsc4 {
+        z-index: 1;
+    }
+}

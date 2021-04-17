@@ -1,0 +1,39 @@
+#app-mount {
+    .peopleList-3c4jOR,
+    .friendsEmpty-1K9B4k {
+        background-color: var(--background-primary);
+    }
+
+    // active now
+    .nowPlayingColumn-2sl4cE {
+        background-color: var(--background-tertiary);
+
+        &::before {
+            content: "";
+            position: absolute;
+            border-top-left-radius: var(--border-radius);
+            box-shadow: 0 -25px 0 0 var(--background-primary);
+            height: 50px;
+            width: 30px;
+        }
+
+        .nowPlayingScroller-2XrVUt {
+            background-color: var(--background-secondary);
+            margin-top: calc(var(--separation-padding) - 2px);
+            margin-left: calc(var(--separation-padding) - 2px);
+            border-radius: var(--border-radius);
+        }
+
+        .itemCard-v9viV7 {
+            background-color: var(--background-secondary-alt);
+
+            &:hover {
+                background-color: var(--background-tertiary);
+            }
+
+            .section-2gLsgF {
+                background-color: var(--background-primary);
+            }
+        }
+    }
+}
