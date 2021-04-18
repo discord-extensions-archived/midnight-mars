@@ -64,7 +64,7 @@
         border: none;
     }
 
-    // --- i have it setup this way cause global variables mmm
+    // --- i have it setup this way cause global classes mmm
     .invite-18yqGF { // listen along
         background-color: var(--background-secondary);
         border-color: var(--background-secondary-alt);
@@ -83,4 +83,23 @@
             background-color: var(--background-secondary);
         }
     }
+    // mentions
+    .mentioned-xhSam7 {
+        &:hover {
+            background-color: var(--background-mentioned-hover);
+        }
+        &::before {
+            background-color: var(--background-mentioned-border);
+        }
+    }
+    .mention {
+        background-color: var(--background-mentioned);
+        color: var(--midnightmars-green);
+
+        &:hover {
+            background-color: var(--midnightmars-green);
+            color: var(--text-normal);
+        }
+    }
+    // --------->
 }

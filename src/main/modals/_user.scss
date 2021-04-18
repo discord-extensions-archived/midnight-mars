@@ -19,5 +19,15 @@
         .childContainer-1wxZNh {
             margin-top: 2px;
         }
+
+        .actionButton-3W1xZa {
+            &.lookFilled-1Gx00P.colorGreen-29iAKY {
+                background-color: var(--midnightmars-green);
+            }
+
+            &.lookInverted-2D7oAl.colorBrand-3pXr91 {
+                color: var(--midnightmars-accent);
+            }
+        }
     }
 }

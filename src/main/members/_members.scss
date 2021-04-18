@@ -1,6 +1,6 @@
 #app-mount {
     .chatContent-a9vAAp::before {
-        content: "";
+        content: '';
         position: absolute;
         border-top-left-radius: var(--border-radius);
         box-shadow: 0 -25px 0 0 var(--background-primary);
@@ -14,5 +14,10 @@
         margin-top: calc(var(--separation-padding) - 2px);
         margin-left: calc(var(--separation-padding) - 2px);
         border-radius: var(--border-radius);
+    }
+
+    .botTag-2WPJ74 {
+        background-color: var(--midnightmars-green);
+        color: #fff;
     }
 }
