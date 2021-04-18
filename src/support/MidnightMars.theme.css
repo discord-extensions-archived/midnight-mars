@@ -96,6 +96,10 @@
     --toast-contents: var(--midnightmars-secondary);
     --toast-box-shadow: rgba(0, 0, 0, .2);
     --toast-border: var(--midnightmars-tertiary);
+    /* ----- Mentions --- */
+    --background-mentioned: rgba(68, 109, 83, 0.15);
+    --background-mentioned-hover: rgba(68, 109, 83, 0.25);
+    --background-mentioned-border: var(--midnightmars-green);
     /* ----- Deprecated --- */
     --deprecated-card-bg: var(--midnightmars-secondary);
     --deprecated-card-editable-bg: var(--midnightmars-secondary);
