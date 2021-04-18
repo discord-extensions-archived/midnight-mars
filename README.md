@@ -20,11 +20,11 @@ git clone https://github.com/LuckFire/midnight-mars
 
 # Credits
 A big thank you to everyone for the inspiration and help with making this theme!
-- **[Pavui](https://github.com/Pavui/)** for helping me stay sane and be a huge inspiration and help on getting this theme done.
+- **[Pavui](https://github.com/Pavui/)** for being a huge inspiration and for helping me get this done. (and helping me stay sane)
 - **[kingultron99](https://github.com/kingultron99)** for the idea of a reactive chat input, coming from their [Material](https://github.com/Kings-Discord-Stuff/material/) theme.
-- **[Fahrenheit](https://github.com/Fahrenheit)** for giving me the idea that separates the members list <3
+- **[Fahrenheit](https://github.com/Fahrenheit)** for the idea that separates the members list.
 
 Addon Credits:
 - **[Tropical](https://github.com/Tropix126)** for [usrbg](https://github.com/Discord-Custom-Covers/usrbg).
 - **[Gibbu](https://github.com/gibbu)** for [RadialStatus](https://github.com/DiscordStyles/RadialStatus).
-- **[NYRI4](https://github.com/NYRI4)** for [Disccolored](https://github.com/NYRI4/Discolored) .
+- **[NYRI4](https://github.com/NYRI4)** for [Discolored](https://github.com/NYRI4/Discolored) .

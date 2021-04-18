@@ -8,10 +8,10 @@
     ==/UserStyle== */
 
     @import url("https://luckfire.github.io/midnight-mars/src/support/compiled.css");
-    @import url("https://raw.githack.com/NYRI4/Discolored/master/main.css");
     @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
     @import url("https://discordstyles.github.io/RadialStatus/base.css");
-
+    @import url("https://raw.githack.com/NYRI4/Discolored/master/main.css");
+    
     :root {
         /* ----------- MidnightMars Base ----------- */
         /* ----- Default Theme --- */
