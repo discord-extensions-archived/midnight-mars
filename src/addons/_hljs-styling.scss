@@ -1,0 +1,167 @@
+:root {
+    /* ---- Default Colors -- */
+    --background: var(--background-secondary);
+    --text-default: #a39e9b;
+    --color-1: #fec418;
+    --color-2: #ef6155;
+    --color-3: #f99b15;
+    --color-4: #48b685;
+    --color-5: #815ba4;
+
+    /* ---- HLJS Default -- */
+    --hljs-attribute: var(--color-1);
+    --hljs-nomarkup: var(--color-1);
+    --hljs-variable: var(--color-2);
+    --hljs-meta: var(--color-2);
+    --hljs-meta-string: var(--hljs-meta);
+    --hljs-meta-keyword: var(--hljs-meta);
+    --hljs-literal: var(--color-3);
+    --hljs-section: var(--color-1);
+    --hljs-number: var(--color-3);
+    --hljs-name: var(--color-2);
+    --hljs-selector-tag: var(--color-5);
+    --hljs-selector-class: var(--color-2);
+    --hljs-selector-attr: var(--text-default);
+    --hljs-selector-pseudo: var(--text-default);
+    --hljs-keyword: var(--color-5);
+    --hljs-built_in: var(--color-3);
+    --hljs-title: var(--color-1);
+    --hljs-link: var(--color-2);
+    --hljs-bullet: var(--color-4);
+    --hljs-symbol: var(--color-4);
+    --hljs-addition: var(--color-4);
+    --hljs-deletion: var(--color-3);
+    --hljs-attr: var(--text-default);
+    --hljs-punctuation: var(--text-default);
+    --hljs-regexp: var(--color-2);
+    --hljs-type: var(--color-3);
+    --hljs-selector-id: var(--color-2);
+    --hljs-operator: var(--text-default);
+    --hljs-rest_arg: var(--color-3);
+    --hljs-template-variable: var(--color-1);
+
+    /* ---- HLJS Specific -- */
+    /* --> Params */
+    --hljs-params: var(--color-3);
+    --hljs-params-attr: var(--hljs-params);
+    /* --> Comment */
+    --hljs-comment: #8d8687;
+    --hljs-comment-doctag: var(--hljs-comment);
+    /* --> String */
+    --hljs-string: var(--color-1);
+    --hljs-string-subst: var(--hljs-string);
+    --hljs-string-template-variable: var(--color-2);
+    /* --> Tag */
+    --hljs-tag: var(--color-2);
+    --hljs-tag-name: var(--hljs-tag);
+    --hljs-tag-attr: var(--color-2);
+    /* --> Function */
+    --hljs-function: var(--text-default);
+    --hljs-function-keyword: var(--hljs-keyword);
+    --hljs-function-title: var(--hljs-title);
+    --hljs-function-params: var(--hljs-params);
+    --hljs-function-literal: var(--hljs-literal);
+    --hljs-function-operator: var(--hljs-operator);
+    /* --> Class */
+    --hljs-class: var(--text-default);
+    --hljs-class-keyword: var(--color-5);
+    --hljs-class-title: var(--hljs-title);
+}
+
+#app-mount {
+    .hljs {
+        background: var(--background);
+        color: var(--text-default);
+        padding: 15px 20px;
+        border-radius: 0;
+        border: none;
+    }
+    .codeLine-14BKbG {
+        color: var(--text-default);
+    }
+    
+    // defaults
+    $hljs: (
+        'comment', 'attribute', 'nomarkup', 'variable', 'meta', 'meta-string', 'meta-keyword', 'literal', 'string', 'section',
+        'number', 'tag', 'name', 'selector-tag', 'selector-class', 'selector-attr', 'selector-pseudo', 'function', 'keyword', 
+        'built_in', 'title', 'link', 'bullet', 'symbol', 'addition', 'deletion', 'attr', 'punctuation', 'regexp', 'type',
+        'selector-id', 'params', 'operator', 'rest_arg', 'template-variable'
+    );
+    @each $hljsType in $hljs {
+        .hljs-#{$hljsType} {
+            color: var(--hljs-#{$hljsType});
+        }
+    }
+
+    // comment
+    .hljs-comment {
+        $comments: (
+            'doctag'
+        );
+        @each $hljsType in $comments {
+            .hljs-#{$hljsType} {
+                color: var(--hljs-comment-#{$hljsType});
+            }
+        }
+    }
+
+    // params
+    .hljs-params {
+        $params: (
+            'attr'
+        );
+        @each $hljsType in $params {
+            .hljs-#{$hljsType} {
+                color: var(--hljs-params-#{$hljsType});
+            }
+        }
+    }
+
+    // string
+    .hljs-string {
+        $strings: (
+            'subst', 'template-variable'
+        );
+        @each $hljsType in $strings {
+            .hljs-#{$hljsType} {
+                color: var(--hljs-string-#{$hljsType});
+            }
+        }
+    }
+
+    // tag
+    .hljs-tag {
+        $tags: (
+            'name', 'attr'
+        );
+        @each $hljsType in $tags {
+            .hljs-#{$hljsType} {
+                color: var(--hljs-tag-#{$hljsType});
+            }
+        }
+    }
+
+    // function
+    .hljs-function {
+        $functions: (
+            'keyword', 'title', 'literal', 'params', 'operator'
+        );
+        @each $hljsType in $functions {
+            .hljs-#{$hljsType} {
+                color: var(--hljs-function-#{$hljsType});
+            }
+        }
+    }
+
+    // class
+    .hljs-class {
+        $classes: (
+            'keyword', 'title'
+        );
+        @each $hljsType in $classes {
+            .hljs-#{$hljsType} {
+                color: var(--hljs-class-#{$hljsType});
+            }
+        }
+    }
+}
