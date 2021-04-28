@@ -1,3 +1,6 @@
+# v1.0.3
+Themed more missed areas.
+
 # v1.0.2
 A few additions:
 - Themed some missing things.

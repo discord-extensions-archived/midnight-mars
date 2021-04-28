@@ -24,6 +24,10 @@
 #app-mount .container-3auIfb[style="opacity: 1; background-color: rgb(81, 162, 128);"] {
     background-color: #649775 !important;
 }
+#app-mount .colorable-1bkp8v.primaryDark-3mSFDl {
+    --background-secondary: var(--midnightmars-secondary);
+    background-color: var(--background-secondary);
+}
 
 #app-mount .guilds-1SWlCJ {
     border-radius: var(--border-radius);
@@ -183,21 +187,26 @@
 }
 
 #app-mount .container-1r6BKw {
+    --background-secondary: var(--midnightmars-secondary);
+    --background-secondary-alt: var(--midnightmars-secondary-alt);
+    --background-tertiary: var(--midnightmars-tertiary);
+}
+#app-mount .container-1r6BKw:not(.transparent-2ZlE3R) {
     background-color: var(--background-secondary);
     border-bottom-right-radius: var(--border-radius);
 }
-#app-mount .container-1r6BKw .children-19S4PO::after {
+#app-mount .container-1r6BKw:not(.transparent-2ZlE3R) .children-19S4PO::after {
     display: none;
 }
-#app-mount .container-1r6BKw .toolbar-1t6TWx {
+#app-mount .container-1r6BKw:not(.transparent-2ZlE3R) .toolbar-1t6TWx {
     background-color: var(--background-secondary-alt);
     border-radius: var(--border-radius);
     padding: 5px;
 }
-#app-mount .container-1r6BKw .public-DraftStyleDefault-block span[class] {
+#app-mount .container-1r6BKw:not(.transparent-2ZlE3R) .public-DraftStyleDefault-block span[class] {
     background-color: var(--background-primary);
 }
-#app-mount .container-1r6BKw .updateIconForeground-3tnNZn {
+#app-mount .container-1r6BKw:not(.transparent-2ZlE3R) .updateIconForeground-3tnNZn {
     fill: var(--midnightmars-green);
 }
 
@@ -475,6 +484,17 @@
 }
 #app-mount .container-1If-HZ.root-1gCeng .reactors-Blmlhw .reactor-3UBcOI {
     box-shadow: inset 0 -1px 0 var(--background-modifier-accent);
+}
+
+#app-mount .modalSize-cqUaws .tile-2w4k5N:hover .sourceThumbnail-27dolk {
+    box-shadow: 0 0 0 2px var(--midnightmars-accent);
+}
+#app-mount .modalSize-cqUaws .sourceThumbnail-27dolk.selected-1nOkyc {
+    box-shadow: 0 0 0 2px var(--midnightmars-accent);
+}
+#app-mount .modalSize-cqUaws .selectorButton-EEUWed:not(.selectorButtonPremiumRequired-mKMbIu):hover,
+#app-mount .modalSize-cqUaws .selectorButtonSelected-t5V9On {
+    background-color: var(--midnightmars-accent);
 }
 
 #app-mount .uploadModal-2ifh8j {

@@ -32,4 +32,10 @@
             background-color: #649775 !important;
         }
     }
+
+    // in-call buttons
+    .colorable-1bkp8v.primaryDark-3mSFDl {
+        --background-secondary: var(--midnightmars-secondary);
+        background-color: var(--background-secondary);
+    }
 }
