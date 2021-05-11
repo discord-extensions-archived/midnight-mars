@@ -34,7 +34,7 @@
     /* ----- Separation --- */
     --border-radius: 5px;
     --separation-padding: 7px;
-
+    
     /* ---------- MidnightMars Addons ---------- */
     /* ----- Chat Indicator --- */
     --border-thickness: 3px;
@@ -43,26 +43,32 @@
     --border-roundness: 3px;
     --transition-time: 500ms;
     /* ----- Channel Indicators --- */
-    --unread-badge: rgba(168, 113, 182, 0.55);
-    --unread-bg: rgba(168, 113, 182, 0.045);
-    --selected-badge: rgb(168, 113, 182);
-    --selected-bg: rgba(168, 113, 182, 0.15);
-    --selected-bg-hover: rgba(168, 113, 182, 0.23);
-    --hovered-bg: rgba(168, 113, 182, 0.09);
-    --bg-rounding: 0 5px 5px 0;
-    --border-info: 4px solid;
+    --indicator-hovered: rgba(152, 100, 163, 0.09);
+    --indicator-rounding: 0;
+    --indicator-border-info: 4px solid;
+    --indicator-selected: 152, 100, 163;
+    --indicator-selected-border: rgba(var(--indicator-selected));
+    --indicator-selected-background: rgba(var(--indicator-selected), 0.1);
+    --indicator-selected-hover: rgba(var(--indicator-selected), 0.18);
+    --indicator-unread: 168, 113, 182;
+    --indicator-unread-border: rgba(var(--indicator-unread), 0.55);
+    --indicator-unread-background: rgba(var(--indicator-unread), 0.045);
+    --indicator-connected: 112, 173, 133;
+    --indicator-connected-border: rgba(var(--indicator-connected), 0.55);
+    --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
+    --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
     /* ----- RadialStatus by Gibbu --- */
     --rs-small-spacing: 2px !important;
     --rs-large-spacing: 2px !important;
     --rs-width: 2px !important;
     --rs-avatar-shape: 50%;
-    --rs-online-color: var(--midnightmars-green) !important;
-    --rs-idle-color: #faa61a;
-    --rs-dnd-color: #f04747;
+    --rs-online-color: #00ED8E !important;
+    --rs-idle-color: #ffd37a;
+    --rs-dnd-color: #F87E7C;
     --rs-offline-color: #636b75;
     --rs-streaming-color: #643da7;
     --rs-invisible-color: #747f8d;
-
+    
     /* ---------- Base Discord Colors ---------- */
     /* ----- Default Theme --- */
     --background-primary: var(--midnightmars-primary);
