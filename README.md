@@ -10,7 +10,7 @@ git clone https://github.com/LuckFire/midnight-mars
 ```
 
 **For BetterDiscord:**
-- [Direct Download](https://betterdiscord.net/ghdl?id=3637)
+- [Direct Download](https://betterdiscord.app/Download?id=141)
 - [View Source](https://luckfire.github.io/midnight-mars/src/support/compiled.css)
 
 **For Browser / Web:**
