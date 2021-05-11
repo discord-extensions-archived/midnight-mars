@@ -1,3 +1,10 @@
+# v1.0.4
+Some general changes.
+- Themed more things.
+- New addition: Friends list now appears as a grid.
+- Redid channel indicators.
+- Some other small fixes / tweaking.
+
 # v1.0.3
 Themed more missed areas.
 

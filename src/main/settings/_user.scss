@@ -46,7 +46,8 @@
     .paymentPane-3bwJ6A {
         background-color: var(--background-secondary);
 
-        .paginator-166-09, .bottomDivider-1K9Gao {
+        .paginator-166-09, 
+        .bottomDivider-1K9Gao {
             background-color: var(--background-secondary);
         }
 
@@ -80,6 +81,9 @@
     }
     .game-1ipmAa {
         box-shadow: 0 1px 0 0 var(--background-modifier-accent);
+    }
+    .flowerStar-1GeTsn path {
+        fill: var(--midnightmars-accent);
     }
 
     // overlay

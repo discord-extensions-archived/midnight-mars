@@ -1,7 +1,7 @@
 #app-mount {
     // reactive chat bar
     .form-2fGMdU {
-        .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
+        .scrollableContainer-2NUZem {
             border-radius: var(--border-radius);
             border-bottom-right-radius: var(--border-roundness);
             border-bottom-left-radius: var(--border-roundness);
@@ -9,16 +9,16 @@
             transition: all var(--transition-time);
         }
 
-        &:focus-within .channelTextArea-rNsIhG .scrollableContainer-2NUZem {
+        &:focus-within .scrollableContainer-2NUZem {
             border-color: var(--border-color);
         }
 
-        &:hover .channelTextArea-rNsIhG .scrollableContainer-2NUZem:not(:focus-within) {
+        &:hover .scrollableContainer-2NUZem:not(:focus-within) {
             border-color: var(--border-hover-color);
         }
     }
     .contents-2mQqc9 {
-        .channelTextArea-2VhZ6z .scrollableContainer-2NUZem {
+        .scrollableContainer-2NUZem {
             border-radius: var(--border-radius);
             border-bottom-right-radius: var(--border-roundness);
             border-bottom-left-radius: var(--border-roundness);
@@ -26,11 +26,11 @@
             transition: all var(--transition-time);
         }
 
-        &:focus-within .channelTextArea-2VhZ6z .scrollableContainer-2NUZem {
+        &:focus-within .scrollableContainer-2NUZem {
             border-color: var(--border-color);
         }
 
-        &:hover .channelTextArea-2VhZ6z .scrollableContainer-2NUZem:not(:focus-within) {
+        &:hover .scrollableContainer-2NUZem:not(:focus-within) {
             border-color: var(--border-hover-color);
         }
     }

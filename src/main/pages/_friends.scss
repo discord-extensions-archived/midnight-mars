@@ -4,6 +4,30 @@
         background-color: var(--background-primary);
     }
 
+    .title-30qZAO {
+        margin-left: 13px;
+    }
+    .peopleListItem-2nzedh {
+        background-color: var(--background-secondary);
+        border-radius: 5px;
+        border: solid 1px var(--background-secondary-alt);
+        padding: 10px;
+        margin: 8px;
+        margin-left: 12px;
+
+        .actionButton-uPB8Fs {
+            background-color: var(--background-modifier-accent);
+        }
+
+        &:hover {
+            background-color: var(--background-secondary-alt);
+
+            .actionButton-uPB8Fs {
+                background-color: var(--background-tertiary);
+            }
+        }
+    }
+
     // active now
     .nowPlayingColumn-2sl4cE {
         background-color: var(--background-tertiary);
@@ -17,7 +41,7 @@
             width: 30px;
         }
 
-        .nowPlayingScroller-2XrVUt {
+        .scroller-2ZPeAD {
             background-color: var(--background-secondary);
             margin-top: calc(var(--separation-padding) - 2px);
             margin-left: calc(var(--separation-padding) - 2px);

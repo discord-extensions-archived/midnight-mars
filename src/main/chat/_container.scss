@@ -37,22 +37,24 @@
     }
 
     // Message Separation
-    .message-2qnXI6 .buttons-cl5qTG .wrapper-2aW0bm{
-        background-color: var(--background-secondary-alt);
-        filter: drop-shadow(0 0 8px var(--background-tertiary));
-    }
-    .message-2qnXI6.groupStart-23k01U {
-        &::after {
-            content: "";
-            position: absolute;
-            background-color: var(--background-modifier-accent);
-            width: 97.8%;
-            height: 1px;
-            top: 0;
-            left: 16px;
+    .message-2qnXI6 {
+        .wrapper-2aW0bm {
+            background-color: var(--background-secondary-alt);
+            filter: drop-shadow(0 0 8px var(--background-tertiary));
         }
-        &:not(.compact-T3H92H):after {
-            top: -9px;
+        &.groupStart-23k01U {
+            &::after {
+                content: "";
+                position: absolute;
+                background-color: var(--background-modifier-accent);
+                width: 97.8%;
+                height: 1px;
+                top: 0;
+                left: 16px;
+            }
+            &:not(.compact-T3H92H):after {
+                top: -9px;
+            }
         }
     }
     .divider-3_HH5L {

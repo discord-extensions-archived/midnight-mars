@@ -29,33 +29,17 @@
         .circleIconButton-1QV--U {
             background-color: var(--midnightmars-primary-alt);
 
-            .circleIcon-1-oi1i,
-            svg {
-                path {
-                    color: var(--midnightmars-green);
-                }
+            svg path {
+                color: var(--midnightmars-green);
             }
 
             &:hover {
                 background-color: var(--midnightmars-green);
 
-                .circleIcon-1-oi1i,
-                svg {
-                    path {
-                        color: #fff;
-                    }
+                svg path {
+                    color: #fff;
                 }
             }
-        }
-    }
-    
-    .tutorialContainer-2sGCg9 {
-        .childWrapper-anI2G9 {
-            background-color: var(--midnightmars-primary-alt);
-        }
-
-        .selected-bZ3Lue .childWrapper-anI2G9 {
-            background-color: var(--background-accent);
         }
     }
 
@@ -65,5 +49,8 @@
         &:hover {
             background-color: var(--midnightmars-accent);
         }
+    }
+    .selected-bZ3Lue .childWrapper-anI2G9 {
+        background-color: var(--background-accent);
     }
 }
