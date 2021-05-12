@@ -1,27 +1,26 @@
-#app-mount .container-1r6BKw {
+#app-mount .container-1r6BKw.themed-ANHk51 {
     --background-secondary: var(--midnightmars-secondary);
     --background-secondary-alt: var(--midnightmars-secondary-alt);
     --background-tertiary: var(--midnightmars-tertiary);
-    &:not(.transparent-2ZlE3R) {
-        background-color: var(--background-secondary);
-        border-bottom-right-radius: var(--border-radius);
-    
-        .children-19S4PO::after {
-            display: none;
-        }
-    
-        .toolbar-1t6TWx {
-            background-color: var(--background-secondary-alt);
-            border-radius: var(--border-radius);
-            padding: 5px;
-        }
-    
-        .public-DraftStyleDefault-block span[class] {
-            background-color: var(--background-primary);
-        }
-    
-        .updateIconForeground-3tnNZn {
-            fill: var(--midnightmars-green);
-        }
+
+    background-color: var(--background-secondary);
+    border-bottom-right-radius: var(--border-radius);
+
+    .children-19S4PO::after {
+        display: none;
+    }
+
+    .toolbar-1t6TWx {
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--border-radius);
+        padding: 5px;
+    }
+
+    .public-DraftStyleDefault-block span[class] {
+        background-color: var(--background-primary);
+    }
+
+    .updateIconForeground-3tnNZn {
+        fill: var(--midnightmars-green);
     }
 }

@@ -10,9 +10,13 @@
         margin-bottom: var(--separation-padding);
     }
 
-    .thin-1ybCId:not(#channels):not(#private-channels) {
+    > .thin-1ybCId {
         background-color: var(--background-secondary);
         border-radius: var(--border-radius);
         margin-bottom: var(--separation-padding);
+    }
+
+    .selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
+        background-color: var(--midnightmars-accent);
     }
 }

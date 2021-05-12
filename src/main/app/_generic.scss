@@ -1,0 +1,64 @@
+#app-mount {
+    // --- classes that are used pretty much everywhere. also stuff that is unsorted ig?
+    .invite-18yqGF { // listen along
+        background-color: var(--background-secondary);
+        border-color: var(--background-secondary-alt);
+    }
+    .tile-2OwFgW { // gifts & games
+        background-color: var(--background-secondary);
+
+        &:hover {
+            background-color: var(--background-secondary-alt);
+        }
+    }
+    .spoilerText-3p6IlD.hidden-HHr2R { // spoilers
+        background-color: var(--background-secondary);
+
+        &:hover {
+            background-color: var(--background-secondary);
+        }
+    }
+    // mentions
+    .mentioned-xhSam7 {
+        &:hover {
+            background-color: var(--background-mentioned-hover);
+        }
+        &::before {
+            background-color: var(--background-mentioned-border);
+        }
+    }
+    .mention {
+        background-color: var(--background-mentioned);
+        color: var(--midnightmars-green);
+
+        &:hover {
+            background-color: var(--midnightmars-green);
+            color: var(--text-normal);
+        }
+    }
+    // replying & clyde
+    .replying-1x3H0T,
+    .ephemeral-1PsL1r {
+        background-color: rgb(152, 100, 163, 0.15);
+        &::before {
+            background-color: var(--midnightmars-accent);
+        }
+    }
+    .ephemeral-1PsL1r .anchorUnderlineOnHover-2ESHQB {
+        color: var(--midnightmars-green);
+    }
+    // reactions
+    .reaction-1hd86g {
+        border-radius: var(--border-radius);
+
+        &.reactionMe-wv5HKu {
+            background-color: rgba(116, 150, 128, 0.15);
+            border-color: var(--midnightmars-green);
+            
+            .reactionCount-2mvXRV {
+                color: var(--text-normal);
+            }
+        }
+    }
+
+}

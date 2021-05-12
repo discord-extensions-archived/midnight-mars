@@ -1,2 +1,16 @@
 @import url("https://discordstyles.github.io/RadialStatus/base.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
+
+:root {
+    /* ----- RadialStatus by Gibbu --- */
+    --rs-small-spacing: 2px;
+    --rs-large-spacing: 2px;
+    --rs-width: 2px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: var(--status-online);
+    --rs-idle-color: var(--status-idle);
+    --rs-dnd-color: var(--status-dnd);
+    --rs-offline-color: var(--status-offinle-invisible);
+    --rs-streaming-color: var(--status-streaming);
+    --rs-invisible-color: var(--status-offinle-invisible);
+}

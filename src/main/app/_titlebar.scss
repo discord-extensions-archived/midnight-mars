@@ -1,17 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 
-@keyframes Gradient {
-    0% {
-       background-position:0% 50%
-    }
-    50% {
-       background-position:100% 50%
-    }
-    100% {
-       background-position:0% 50%
-    }
-}
-
 #app-mount .titleBar-AC4pGV {
     z-index: 5;
     background-color: var(--background-secondary);
@@ -41,8 +29,7 @@
             content: "MIDNIGHT MARS";
             position: absolute;
             font-family: "Fredoka One";
-            background: linear-gradient(270deg, #C779D0, #FEAC5E);
-            animation: Gradient 4s ease infinite;
+            background: linear-gradient(270deg, #C779D0 60%, #FEAC5E);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;

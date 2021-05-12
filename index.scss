@@ -11,6 +11,12 @@
 --midnightmars-accent-dark: #895a92;
 --midnightmars-green: #70ad85;
 --midnightmars-pill-buttons: rgba(132, 101, 138, 0.522);
+/* ----- Status Colors --- */
+--status-online: #00ED8E;
+--status-idle: #ffd37a;
+--status-dnd: #F87E7C;
+--status-offline-invisible: #ADADB8;
+--status-streaming: #7e58be;
 /* ----- Modals & Popouts ---  */
 --midnightmars-layer-primary: var(--midnightmars-primary);
 --midnightmars-layer-secondary: var(--midnightmars-secondary);
@@ -19,8 +25,6 @@
 /* ----- Separation --- */
 --border-radius: 5px;
 --separation-padding: 7px;
-
-// -------------------------------------------------------------->
 
 /* ---------- MidnightMars Addons ---------- */
 /* ----- Chat Indicator --- */
@@ -44,19 +48,6 @@
 --indicator-connected-border: rgba(var(--indicator-connected), 0.55);
 --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
 --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
-/* ----- RadialStatus by Gibbu --- */
---rs-small-spacing: 2px !important;
---rs-large-spacing: 2px !important;
---rs-width: 2px !important;
---rs-avatar-shape: 50%;
---rs-online-color: var(--midnightmars-green) !important;
---rs-idle-color: #faa61a;
---rs-dnd-color: #f04747;
---rs-offline-color: #636b75;
---rs-streaming-color: #643da7;
---rs-invisible-color: #747f8d;
-
-// -------------------------------------------------------------->
 
 /* ---------- Base Discord Colors ---------- */
 /* ----- Default Theme --- */

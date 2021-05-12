@@ -1,0 +1,34 @@
+#app-mount #status-picker {
+    #status-picker-online {
+        &.focused-3afm-j {
+            background-color: #00ED8E;
+        }
+        &:not(.focused-3afm-j) .status-1AY8sU {
+            background-color: #00ED8E !important;
+        }
+    }
+    #status-picker-idle {
+        &.focused-3afm-j {
+            background-color: #ffd37a;
+        }
+        &:not(.focused-3afm-j) .status-1AY8sU {
+            background-color: #ffd37a !important;
+        }
+    }
+    #status-picker-dnd {
+        &.focused-3afm-j { 
+            background-color: #F87E7C;
+        }
+        &:not(.focused-3afm-j) .status-1AY8sU {
+            background-color: #F87E7C !important;
+        }
+    }
+    #status-picker-invisible {
+        &.focused-3afm-j {
+            background-color: #747F8D;
+        }
+        &:not(.focused-3afm-j) .status-1AY8sU {
+            background-color: #747F8D !important;
+        }
+    }
+}

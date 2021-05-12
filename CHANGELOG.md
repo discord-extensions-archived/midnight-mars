@@ -1,3 +1,7 @@
+# v1.0.5
+- Some optimizations (hopefully).
+- Moved variables into compiled source instead of having it in the specific file. This only applies to BetterDiscord and Web. You may need to reinstall the theme if you're on one of these platforms.
+
 # v1.0.4
 Some general changes.
 - Themed more things.

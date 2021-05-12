@@ -5,7 +5,7 @@
         margin: var(--separation-padding) calc(var(--separation-padding) * 2) var(--separation-padding) 0;
         left: var(--separation-padding);
 
-        .content-yTz4x3 .chatContent-a9vAAp {
+        .chatContent-a9vAAp {
             background-color: var(--background-primary);
             border-bottom-right-radius: var(--border-radius);
         }
@@ -29,7 +29,7 @@
         .unreadPill-2HyYtt {
             background-color: var(--background-accent);
 
-            .unreadPillCap-3_K2q2 .unreadPillCapStroke-7rkHbg {
+            .unreadPillCapStroke-7rkHbg {
                 fill: var(--background-accent);
                 color: var(--background-accent);
             }
@@ -65,43 +65,4 @@
     .container-3RCQyg {
         border: none;
     }
-
-    // --- i have it setup this way cause global classes mmm
-    .invite-18yqGF { // listen along
-        background-color: var(--background-secondary);
-        border-color: var(--background-secondary-alt);
-    }
-    .tile-2OwFgW { // gifts & games
-        background-color: var(--background-secondary);
-
-        &:hover {
-            background-color: var(--background-secondary-alt);
-        }
-    }
-    .spoilerText-3p6IlD.hidden-HHr2R { // spoilers
-        background-color: var(--background-secondary);
-
-        &:hover {
-            background-color: var(--background-secondary);
-        }
-    }
-    // mentions
-    .mentioned-xhSam7 {
-        &:hover {
-            background-color: var(--background-mentioned-hover);
-        }
-        &::before {
-            background-color: var(--background-mentioned-border);
-        }
-    }
-    .mention {
-        background-color: var(--background-mentioned);
-        color: var(--midnightmars-green);
-
-        &:hover {
-            background-color: var(--midnightmars-green);
-            color: var(--text-normal);
-        }
-    }
-    // --------->
 }

@@ -1,5 +1,15 @@
-#app-mount .userPopout-3XzG_A {
-    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--midnightmars-layer-outline);
+#app-mount {
+    .userPopout-3XzG_A {
+        box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--midnightmars-layer-outline);
+
+        .body-3iLsc4,
+        .footer-1fjuF6 {
+            background-color: var(--background-secondary);
+        }
+        .input-cIJ7To:focus {
+            border-color: var(--midnightmars-accent);
+        }
+    }
 
     .headerNormal-T_seeN {
         background-color: var(--background-tertiary);
@@ -9,13 +19,5 @@
     }
     .headerSpotify-zpWxgT {
         background-color: var(--midnightmars-green);
-    }
-
-    .body-3iLsc4,
-    .footer-1fjuF6 {
-        background-color: var(--background-secondary);
-    }
-    .input-cIJ7To:focus {
-        border-color: var(--midnightmars-accent);
     }
 }

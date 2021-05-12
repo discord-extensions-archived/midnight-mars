@@ -1,15 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://discordstyles.github.io/RadialStatus/base.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
+
+:root {
+    /* ----------- MidnightMars Base ----------- */
+    /* ----- Default Theme --- */
+    --midnightmars-primary: #36263A;
+    --midnightmars-primary-alt: #432e4d;
+    --midnightmars-secondary: #281D30;
+    --midnightmars-secondary-alt: #211828;
+    --midnightmars-tertiary: #1a141f;
+    --midnightmars-modifiers: 168, 113, 182;
+    --midnightmars-accent: #9864a3;
+    --midnightmars-accent-dark: #895a92;
+    --midnightmars-green: #70ad85;
+    --midnightmars-pill-buttons: rgba(132, 101, 138, 0.522);
+    /* ----- Status Colors --- */
+    --status-online: #00ED8E;
+    --status-idle: #ffd37a;
+    --status-dnd: #F87E7C;
+    --status-offline-invisible: #ADADB8;
+    --status-streaming: #7e58be;
+    /* ----- Modals & Popouts ---  */
+    --midnightmars-layer-primary: var(--midnightmars-primary);
+    --midnightmars-layer-secondary: var(--midnightmars-secondary);
+    --midnightmars-layer-secondary-alt: var(--midnightmars-secondary-alt);
+    --midnightmars-layer-outline: rgb(26, 20, 31, 0.5);
+    /* ----- Separation --- */
+    --border-radius: 5px;
+    --separation-padding: 7px;
+    
+    /* ---------- MidnightMars Addons ---------- */
+    /* ----- Chat Indicator --- */
+    --border-thickness: 3px;
+    --border-color: var(--midnightmars-accent);
+    --border-hover-color: #64416b;
+    --border-roundness: 3px;
+    --transition-time: 500ms;
+    /* ----- Channel Indicators --- */
+    --indicator-hovered: rgba(152, 100, 163, 0.09);
+    --indicator-rounding: 0;
+    --indicator-border-info: 4px solid;
+    --indicator-selected: 152, 100, 163;
+    --indicator-selected-border: rgba(var(--indicator-selected));
+    --indicator-selected-background: rgba(var(--indicator-selected), 0.1);
+    --indicator-selected-hover: rgba(var(--indicator-selected), 0.18);
+    --indicator-unread: 168, 113, 182;
+    --indicator-unread-border: rgba(var(--indicator-unread), 0.55);
+    --indicator-unread-background: rgba(var(--indicator-unread), 0.045);
+    --indicator-connected: 112, 173, 133;
+    --indicator-connected-border: rgba(var(--indicator-connected), 0.55);
+    --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
+    --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
+    
+    /* ---------- Base Discord Colors ---------- */
+    /* ----- Default Theme --- */
+    --background-primary: var(--midnightmars-primary);
+    --background-secondary: var(--midnightmars-secondary);
+    --background-secondary-alt: var(--midnightmars-secondary-alt);
+    --background-tertiary: var(--midnightmars-tertiary);
+    --background-accent: var(--midnightmars-accent);
+    --background-floating: #19131f;
+    --channeltextarea-background: var(--midnightmars-secondary-alt);
+    --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
+    --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+    /* ----- Text --- */
+    --text-normal: #fbfbfb;
+    --text-muted: #b2a6b6;
+    --text-link: #b6ecc8;
+    --channels-default: #b2a6b6;
+    --interactive-normal: #c8c8c8;
+    --interactive-hover: #dcddde;
+    --interactive-active: var(--text-normal);
+    --interactive-muted: #6f5e72;
+    --header-primary: var(--text-normal);
+    --header-secondary: #c9c9c9;
+    /* ----- Modifiers --- */
+    --background-modifier-selected: rgb(var(--midnightmars-modifiers), 0.09);
+    --background-modifier-hover: rgb(var(--midnightmars-modifiers), 0.12);
+    --background-modifier-active: rgb(var(--midnightmars-modifiers), 0.18);
+    --background-modifier-accent: rgba(170, 150, 176, 0.149);
+    /* ----- Toasts --- */
+    --toast-background: var(--midnightmars-primary);
+    --toast-header: var(--midnightmars-tertiary);
+    --toast-contents: var(--midnightmars-secondary);
+    --toast-box-shadow: rgba(0, 0, 0, .2);
+    --toast-border: var(--midnightmars-tertiary);
+    /* ----- Mentions --- */
+    --background-mentioned: rgba(68, 109, 83, 0.15);
+    --background-mentioned-hover: rgba(68, 109, 83, 0.25);
+    --background-mentioned-border: var(--midnightmars-green);
+    /* ----- Deprecated --- */
+    --deprecated-card-bg: var(--midnightmars-secondary);
+    --deprecated-card-editable-bg: var(--midnightmars-secondary);
+    --deprecated-text-input-border-disabled: var(--midnightmars-tertiary);
+    --deprecated-quickswitcher-input-background: var(--midnightmars-primary);
+    --deprecated-quickswitcher-input-placeholder: var(--text-muted);
+}
+
 #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91 {
     background-color: var(--midnightmars-accent);
 }
 #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91:not([disabled]):hover {
     background-color: var(--midnightmars-accent-dark);
 }
-#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV,
-#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV, #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
     background-color: rgba(255, 255, 255, 0.1);
 }
-#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:not([disabled]):hover,
-#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:not([disabled]):hover {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:not([disabled]):hover, #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:not([disabled]):hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 #app-mount .container-3auIfb {
@@ -28,6 +126,58 @@
 #app-mount .colorable-1bkp8v.primaryDark-3mSFDl {
     --background-secondary: var(--midnightmars-secondary);
     background-color: var(--background-secondary);
+}
+
+#app-mount .invite-18yqGF {
+    background-color: var(--background-secondary);
+    border-color: var(--background-secondary-alt);
+}
+#app-mount .tile-2OwFgW {
+    background-color: var(--background-secondary);
+}
+#app-mount .tile-2OwFgW:hover {
+    background-color: var(--background-secondary-alt);
+}
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R {
+    background-color: var(--background-secondary);
+}
+#app-mount .spoilerText-3p6IlD.hidden-HHr2R:hover {
+    background-color: var(--background-secondary);
+}
+#app-mount .mentioned-xhSam7:hover {
+    background-color: var(--background-mentioned-hover);
+}
+#app-mount .mentioned-xhSam7::before {
+    background-color: var(--background-mentioned-border);
+}
+#app-mount .mention {
+    background-color: var(--background-mentioned);
+    color: var(--midnightmars-green);
+}
+#app-mount .mention:hover {
+    background-color: var(--midnightmars-green);
+    color: var(--text-normal);
+}
+#app-mount .replying-1x3H0T,
+#app-mount .ephemeral-1PsL1r {
+    background-color: rgba(152, 100, 163, 0.15);
+}
+#app-mount .replying-1x3H0T::before,
+#app-mount .ephemeral-1PsL1r::before {
+    background-color: var(--midnightmars-accent);
+}
+#app-mount .ephemeral-1PsL1r .anchorUnderlineOnHover-2ESHQB {
+    color: var(--midnightmars-green);
+}
+#app-mount .reaction-1hd86g {
+    border-radius: var(--border-radius);
+}
+#app-mount .reaction-1hd86g.reactionMe-wv5HKu {
+    background-color: rgba(116, 150, 128, 0.15);
+    border-color: var(--midnightmars-green);
+}
+#app-mount .reaction-1hd86g.reactionMe-wv5HKu .reactionCount-2mvXRV {
+    color: var(--text-normal);
 }
 
 #app-mount .guilds-1SWlCJ {
@@ -77,8 +227,7 @@
     background-color: var(--background-accent);
 }
 
-#app-mount .menu-3sdvDG .item-1tOPte:not(.colorDanger-2qLCe1).focused-3afm-j,
-#app-mount .menu-3sdvDG .item-1tOPte:not(.colorDanger-2qLCe1):active {
+#app-mount .menu-3sdvDG .item-1tOPte:not(.colorDanger-2qLCe1).focused-3afm-j, #app-mount .menu-3sdvDG .item-1tOPte:not(.colorDanger-2qLCe1):active {
     background-color: var(--midnightmars-accent);
 }
 
@@ -89,13 +238,11 @@
     margin-top: 26px;
 }
 
-#app-mount .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-thumb,
-#app-mount .scrollerBase-289Jih.auto-Ge5KZx::-webkit-scrollbar-thumb {
+#app-mount .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-thumb, #app-mount .scrollerBase-289Jih.auto-Ge5KZx::-webkit-scrollbar-thumb {
     background-color: var(--background-secondary-alt);
     border-radius: var(--border-radius);
 }
-#app-mount .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-track,
-#app-mount .scrollerBase-289Jih.auto-Ge5KZx::-webkit-scrollbar-track {
+#app-mount .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-track, #app-mount .scrollerBase-289Jih.auto-Ge5KZx::-webkit-scrollbar-track {
     background-color: var(--background-secondary);
     border-radius: var(--border-radius);
 }
@@ -103,29 +250,6 @@
     background-color: var(--background-secondary-alt);
 }
 
-@-webkit-keyframes Gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-@keyframes Gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
 #app-mount .titleBar-AC4pGV {
     z-index: 5;
     background-color: var(--background-secondary);
@@ -152,10 +276,8 @@
     content: "MIDNIGHT MARS";
     position: absolute;
     font-family: "Fredoka One";
-    background: -webkit-gradient(linear, right top, left top, from(#C779D0), to(#FEAC5E));
-    background: linear-gradient(270deg, #C779D0, #FEAC5E);
-    -webkit-animation: Gradient 4s ease infinite;
-            animation: Gradient 4s ease infinite;
+    background: -webkit-gradient(linear, right top, left top, color-stop(60%, #C779D0), to(#FEAC5E));
+    background: linear-gradient(270deg, #C779D0 60%, #FEAC5E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -195,27 +317,25 @@
     color: transparent;
 }
 
-#app-mount .container-1r6BKw {
+#app-mount .container-1r6BKw.themed-ANHk51 {
     --background-secondary: var(--midnightmars-secondary);
     --background-secondary-alt: var(--midnightmars-secondary-alt);
     --background-tertiary: var(--midnightmars-tertiary);
-}
-#app-mount .container-1r6BKw:not(.transparent-2ZlE3R) {
     background-color: var(--background-secondary);
     border-bottom-right-radius: var(--border-radius);
 }
-#app-mount .container-1r6BKw:not(.transparent-2ZlE3R) .children-19S4PO::after {
+#app-mount .container-1r6BKw.themed-ANHk51 .children-19S4PO::after {
     display: none;
 }
-#app-mount .container-1r6BKw:not(.transparent-2ZlE3R) .toolbar-1t6TWx {
+#app-mount .container-1r6BKw.themed-ANHk51 .toolbar-1t6TWx {
     background-color: var(--background-secondary-alt);
     border-radius: var(--border-radius);
     padding: 5px;
 }
-#app-mount .container-1r6BKw:not(.transparent-2ZlE3R) .public-DraftStyleDefault-block span[class] {
+#app-mount .container-1r6BKw.themed-ANHk51 .public-DraftStyleDefault-block span[class] {
     background-color: var(--background-primary);
 }
-#app-mount .container-1r6BKw:not(.transparent-2ZlE3R) .updateIconForeground-3tnNZn {
+#app-mount .container-1r6BKw.themed-ANHk51 .updateIconForeground-3tnNZn {
     fill: var(--midnightmars-green);
 }
 
@@ -235,10 +355,13 @@
     border-radius: var(--border-radius);
     margin-bottom: var(--separation-padding);
 }
-#app-mount .sidebar-2K8pFh .thin-1ybCId:not(#channels):not(#private-channels) {
+#app-mount .sidebar-2K8pFh > .thin-1ybCId {
     background-color: var(--background-secondary);
     border-radius: var(--border-radius);
     margin-bottom: var(--separation-padding);
+}
+#app-mount .sidebar-2K8pFh .selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
+    background-color: var(--midnightmars-accent);
 }
 
 #app-mount .panels-j1Uci_ {
@@ -259,92 +382,9 @@
     border-radius: var(--border-radius);
 }
 #app-mount .panels-j1Uci_ .activityPanel-28dQGo,
-#app-mount .panels-j1Uci_ .wrapper-24pKcD .container-1giJp5 {
+#app-mount .panels-j1Uci_ .container-1giJp5 {
     border-top: 2px dotted var(--background-modifier-accent);
     border-bottom: none;
-}
-
-#app-mount .chat-3bRxxu {
-    background-color: var(--background-tertiary);
-    border-radius: var(--border-radius);
-    margin: var(--separation-padding) calc(var(--separation-padding) * 2) var(--separation-padding) 0;
-    left: var(--separation-padding);
-}
-#app-mount .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp {
-    background-color: var(--background-primary);
-    border-bottom-right-radius: var(--border-radius);
-}
-#app-mount .newMessagesBar-265mhP {
-    background-color: var(--background-accent);
-    border-bottom-right-radius: var(--border-radius);
-    border-bottom-left-radius: var(--border-radius);
-}
-#app-mount .isUnread-3Ef-o9 {
-    background-color: var(--background-accent);
-    border-color: var(--background-accent);
-}
-#app-mount .isUnread-3Ef-o9 .content-1o0f9g {
-    color: var(--text-normal);
-}
-#app-mount .isUnread-3Ef-o9 .unreadPill-2HyYtt {
-    background-color: var(--background-accent);
-}
-#app-mount .isUnread-3Ef-o9 .unreadPill-2HyYtt .unreadPillCap-3_K2q2 .unreadPillCapStroke-7rkHbg {
-    fill: var(--background-accent);
-    color: var(--background-accent);
-}
-#app-mount .message-2qnXI6 .wrapper-2aW0bm {
-    background-color: var(--background-secondary-alt);
-    -webkit-filter: drop-shadow(0 0 8px var(--background-tertiary));
-            filter: drop-shadow(0 0 8px var(--background-tertiary));
-}
-#app-mount .message-2qnXI6.groupStart-23k01U::after {
-    content: "";
-    position: absolute;
-    background-color: var(--background-modifier-accent);
-    width: 97.8%;
-    height: 1px;
-    top: 0;
-    left: 16px;
-}
-#app-mount .message-2qnXI6.groupStart-23k01U:not(.compact-T3H92H):after {
-    top: -9px;
-}
-#app-mount .divider-3_HH5L + .message-2qnXI6.groupStart-23k01U::after {
-    content: none;
-}
-#app-mount .container-3RCQyg {
-    border: none;
-}
-#app-mount .invite-18yqGF {
-    background-color: var(--background-secondary);
-    border-color: var(--background-secondary-alt);
-}
-#app-mount .tile-2OwFgW {
-    background-color: var(--background-secondary);
-}
-#app-mount .tile-2OwFgW:hover {
-    background-color: var(--background-secondary-alt);
-}
-#app-mount .spoilerText-3p6IlD.hidden-HHr2R {
-    background-color: var(--background-secondary);
-}
-#app-mount .spoilerText-3p6IlD.hidden-HHr2R:hover {
-    background-color: var(--background-secondary);
-}
-#app-mount .mentioned-xhSam7:hover {
-    background-color: var(--background-mentioned-hover);
-}
-#app-mount .mentioned-xhSam7::before {
-    background-color: var(--background-mentioned-border);
-}
-#app-mount .mention {
-    background-color: var(--background-mentioned);
-    color: var(--midnightmars-green);
-}
-#app-mount .mention:hover {
-    background-color: var(--midnightmars-green);
-    color: var(--text-normal);
 }
 
 #app-mount .form-2fGMdU .scrollableContainer-2NUZem {
@@ -376,6 +416,59 @@
     border-color: var(--border-hover-color);
 }
 
+#app-mount .chat-3bRxxu {
+    background-color: var(--background-tertiary);
+    border-radius: var(--border-radius);
+    margin: var(--separation-padding) calc(var(--separation-padding) * 2) var(--separation-padding) 0;
+    left: var(--separation-padding);
+}
+#app-mount .chat-3bRxxu .chatContent-a9vAAp {
+    background-color: var(--background-primary);
+    border-bottom-right-radius: var(--border-radius);
+}
+#app-mount .newMessagesBar-265mhP {
+    background-color: var(--background-accent);
+    border-bottom-right-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+}
+#app-mount .isUnread-3Ef-o9 {
+    background-color: var(--background-accent);
+    border-color: var(--background-accent);
+}
+#app-mount .isUnread-3Ef-o9 .content-1o0f9g {
+    color: var(--text-normal);
+}
+#app-mount .isUnread-3Ef-o9 .unreadPill-2HyYtt {
+    background-color: var(--background-accent);
+}
+#app-mount .isUnread-3Ef-o9 .unreadPill-2HyYtt .unreadPillCapStroke-7rkHbg {
+    fill: var(--background-accent);
+    color: var(--background-accent);
+}
+#app-mount .message-2qnXI6 .wrapper-2aW0bm {
+    background-color: var(--background-secondary-alt);
+    -webkit-filter: drop-shadow(0 0 8px var(--background-tertiary));
+            filter: drop-shadow(0 0 8px var(--background-tertiary));
+}
+#app-mount .message-2qnXI6.groupStart-23k01U::after {
+    content: "";
+    position: absolute;
+    background-color: var(--background-modifier-accent);
+    width: 97.8%;
+    height: 1px;
+    top: 0;
+    left: 16px;
+}
+#app-mount .message-2qnXI6.groupStart-23k01U:not(.compact-T3H92H):after {
+    top: -9px;
+}
+#app-mount .divider-3_HH5L + .message-2qnXI6.groupStart-23k01U::after {
+    content: none;
+}
+#app-mount .container-3RCQyg {
+    border: none;
+}
+
 #app-mount .chatContent-a9vAAp::before {
     content: "";
     position: absolute;
@@ -387,7 +480,7 @@
     height: 50px;
     width: 30px;
 }
-#app-mount .membersWrap-2h-GB4 .members-1998pB {
+#app-mount .members-1998pB {
     margin-top: calc(var(--separation-padding) - 2px);
     margin-left: calc(var(--separation-padding) - 2px);
     border-radius: var(--border-radius);
@@ -493,7 +586,7 @@
     color: var(--header-secondary);
 }
 
-#app-mount .content-1LAB8Z .message-2qRu38 {
+#app-mount .message-2qRu38 {
     background-color: var(--background-secondary);
     -webkit-box-shadow: 0 0 0 1px var(--midnightmars-layer-outline), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
             box-shadow: 0 0 0 1px var(--midnightmars-layer-outline), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
@@ -502,16 +595,16 @@
 #app-mount .container-1If-HZ.root-1gCeng .scroller-1-nKid {
     background-color: var(--background-secondary);
 }
-#app-mount .container-1If-HZ.root-1gCeng .scroller-1-nKid .reactionSelected-1pqISm {
+#app-mount .container-1If-HZ.root-1gCeng .reactionSelected-1pqISm {
     background-color: var(--background-modifier-selected);
 }
-#app-mount .container-1If-HZ.root-1gCeng .scroller-1-nKid .reactionDefault-GBA58K:hover {
+#app-mount .container-1If-HZ.root-1gCeng .reactionDefault-GBA58K:hover {
     background-color: var(--background-modifier-active);
 }
 #app-mount .container-1If-HZ.root-1gCeng .reactors-Blmlhw {
     background-color: var(--background-primary);
 }
-#app-mount .container-1If-HZ.root-1gCeng .reactors-Blmlhw .reactor-3UBcOI {
+#app-mount .container-1If-HZ.root-1gCeng .reactor-3UBcOI {
     -webkit-box-shadow: inset 0 -1px 0 var(--background-modifier-accent);
             box-shadow: inset 0 -1px 0 var(--background-modifier-accent);
 }
@@ -743,28 +836,28 @@
 #app-mount .calendarPicker-2yf6Ci .react-datepicker {
     background-color: var(--midnightmars-secondary);
 }
-#app-mount .calendarPicker-2yf6Ci .react-datepicker .react-datepicker__navigation {
+#app-mount .react-datepicker__navigation {
     border-color: var(--background-floating);
 }
-#app-mount .calendarPicker-2yf6Ci .react-datepicker .react-datepicker__header {
+#app-mount .react-datepicker__header {
     background-color: var(--midnightmars-secondary);
     border-color: var(--background-modifier-accent);
 }
-#app-mount .calendarPicker-2yf6Ci .react-datepicker .react-datepicker__header .react-datepicker__current-month {
+#app-mount .react-datepicker__current-month {
     border-bottom-color: var(--background-modifier-accent);
 }
-#app-mount .calendarPicker-2yf6Ci .react-datepicker .react-datepicker__day--today::after {
+#app-mount .react-datepicker__day--today::after {
     background-color: var(--midnightmars-accent);
 }
-#app-mount .calendarPicker-2yf6Ci .react-datepicker .react-datepicker__day {
+#app-mount .react-datepicker__day {
     border-top-color: var(--background-tertiary);
     border-left-color: var(--background-tertiary);
 }
-#app-mount .calendarPicker-2yf6Ci .react-datepicker .react-datepicker__day:hover:not(.react-datepicker__day--disabled) {
+#app-mount .react-datepicker__day:hover:not(.react-datepicker__day--disabled) {
     background-color: var(--midnightmars-accent);
 }
-#app-mount .calendarPicker-2yf6Ci .react-datepicker .react-datepicker__day--outside-month,
-#app-mount .calendarPicker-2yf6Ci .react-datepicker .react-datepicker__day--disabled {
+#app-mount .react-datepicker__day--outside-month,
+#app-mount .react-datepicker__day--disabled {
     background-color: var(--midnightmars-secondary-alt);
 }
 #app-mount .datePickerHint-3Q1Udw {
@@ -838,18 +931,34 @@
     color: var(--text-muted);
 }
 
+#app-mount #status-picker #status-picker-online.focused-3afm-j {
+    background-color: #00ED8E;
+}
+#app-mount #status-picker #status-picker-online:not(.focused-3afm-j) .status-1AY8sU {
+    background-color: #00ED8E !important;
+}
+#app-mount #status-picker #status-picker-idle.focused-3afm-j {
+    background-color: #ffd37a;
+}
+#app-mount #status-picker #status-picker-idle:not(.focused-3afm-j) .status-1AY8sU {
+    background-color: #ffd37a !important;
+}
+#app-mount #status-picker #status-picker-dnd.focused-3afm-j {
+    background-color: #F87E7C;
+}
+#app-mount #status-picker #status-picker-dnd:not(.focused-3afm-j) .status-1AY8sU {
+    background-color: #F87E7C !important;
+}
+#app-mount #status-picker #status-picker-invisible.focused-3afm-j {
+    background-color: #747F8D;
+}
+#app-mount #status-picker #status-picker-invisible:not(.focused-3afm-j) .status-1AY8sU {
+    background-color: #747F8D !important;
+}
+
 #app-mount .userPopout-3XzG_A {
     -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--midnightmars-layer-outline);
             box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2), 0 0 0 1px var(--midnightmars-layer-outline);
-}
-#app-mount .userPopout-3XzG_A .headerNormal-T_seeN {
-    background-color: var(--background-tertiary);
-}
-#app-mount .userPopout-3XzG_A .headerPlaying-j0WQBV {
-    background-color: var(--midnightmars-accent);
-}
-#app-mount .userPopout-3XzG_A .headerSpotify-zpWxgT {
-    background-color: var(--midnightmars-green);
 }
 #app-mount .userPopout-3XzG_A .body-3iLsc4,
 #app-mount .userPopout-3XzG_A .footer-1fjuF6 {
@@ -857,6 +966,15 @@
 }
 #app-mount .userPopout-3XzG_A .input-cIJ7To:focus {
     border-color: var(--midnightmars-accent);
+}
+#app-mount .headerNormal-T_seeN {
+    background-color: var(--background-tertiary);
+}
+#app-mount .headerPlaying-j0WQBV {
+    background-color: var(--midnightmars-accent);
+}
+#app-mount .headerSpotify-zpWxgT {
+    background-color: var(--midnightmars-green);
 }
 
 #app-mount .layer-3QrUeG[aria-label*=_SETTINGS] {
@@ -1095,16 +1213,20 @@
     position: relative;
 }
 
-#app-mount {
-    /* -------- BASE ---- */
-    /* ---- Borders -- */
-    /* -------- CHANNEL INDICATORS ---- */
-    /* ---- Channel Hover -- */
-    /* ---- Channel Selected -- */
-    /* ---- Channel Unread -- */
-    /* ---- VC Connected -- */
-    /* ---- DM Channel Positioning -- */
+:root {
+    /* ----- RadialStatus by Gibbu --- */
+    --rs-small-spacing: 2px;
+    --rs-large-spacing: 2px;
+    --rs-width: 2px;
+    --rs-avatar-shape: 50%;
+    --rs-online-color: var(--status-online);
+    --rs-idle-color: var(--status-idle);
+    --rs-dnd-color: var(--status-dnd);
+    --rs-offline-color: var(--status-offinle-invisible);
+    --rs-streaming-color: var(--status-streaming);
+    --rs-invisible-color: var(--status-offinle-invisible);
 }
+
 #app-mount .containerDefault--pIXnN .wrapper-2jXpOf,
 #app-mount .channel-2QD9_O {
     border-radius: var(--indicator-rounding);
@@ -1163,14 +1285,6 @@
     margin-left: 8px;
 }
 
-#app-mount {
-    /* Paraíso Comment */
-    /* Paraíso Red */
-    /* Paraíso Orange */
-    /* Paraíso Yellow */
-    /* Paraíso Green */
-    /* Paraíso Purple */
-}
 #app-mount .hljs {
     background: var(--background-secondary);
     color: #a39e9b;
