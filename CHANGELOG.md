@@ -1,3 +1,6 @@
+# v1.0.6 by Kami
+- Removed usrbg because of new Powercord guidelines (more info [here](https://discord.com/channels/538759280057122817/755012671837044797/847269429699411969))
+
 # v1.0.5
 - Some optimizations (hopefully).
 - Moved variables into compiled source instead of having it in the specific file. This only applies to BetterDiscord and Web. You may need to reinstall the theme if you're on one of these platforms.

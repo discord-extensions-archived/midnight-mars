@@ -25,6 +25,6 @@ A big thank you to everyone for the inspiration and help with making this theme!
 - **[Fahrenheit](https://github.com/Fahrenheit)** for the idea that separates the members list.
 
 Addon Credits:
-- **[Tropical](https://github.com/Tropix126)** for [usrbg](https://github.com/Discord-Custom-Covers/usrbg).
+- <strike>**[Tropical](https://github.com/Tropix126)** for [usrbg](https://github.com/Discord-Custom-Covers/usrbg).</strike> Deleted since 1.0.6. More info [here](https://discord.com/channels/538759280057122817/755012671837044797/847269429699411969).
 - **[Gibbu](https://github.com/gibbu)** for [RadialStatus](https://github.com/DiscordStyles/RadialStatus).
 - **[NYRI4](https://github.com/NYRI4)** for [Discolored](https://github.com/NYRI4/Discolored) .
