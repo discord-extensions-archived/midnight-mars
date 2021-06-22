@@ -2,8 +2,6 @@
 - **[usrbg](https://github.com/Discord-Custom-Covers/usrbg)** is now removed due to it violating Powercord's guidelines.
     - For those in the **[Powercord Discord Server](https://discord.gg/gs4ZMbBfCh)**, you can find more information about this change **[here](https://canary.discord.com/channels/538759280057122817/755012671837044797/847269429699411969)**
 
-Also for the person who put my theme into the Powercord theme links channel without my permission: can you dont? :WeirdChamp: ty in advance.
-
 # v1.0.5
 - Some optimizations (hopefully).
 - Moved variables into compiled source instead of having it in the specific file. This only applies to BetterDiscord and Web. You may need to reinstall the theme if you're on one of these platforms.
