@@ -15,21 +15,24 @@
     --midnightmars-accent-dark: #895a92;
     --midnightmars-green: #70ad85;
     --midnightmars-pill-buttons: rgba(132, 101, 138, 0.522);
+
     /* ----- Status Colors --- */
     --status-online: #00ED8E;
     --status-idle: #ffd37a;
     --status-dnd: #F87E7C;
     --status-offline-invisible: #ADADB8;
     --status-streaming: #7e58be;
+
     /* ----- Modals & Popouts ---  */
     --midnightmars-layer-primary: var(--midnightmars-primary);
     --midnightmars-layer-secondary: var(--midnightmars-secondary);
     --midnightmars-layer-secondary-alt: var(--midnightmars-secondary-alt);
     --midnightmars-layer-outline: rgb(26, 20, 31, 0.5);
+
     /* ----- Separation --- */
     --border-radius: 5px;
     --separation-padding: 7px;
-    
+
     /* ---------- MidnightMars Addons ---------- */
     /* ----- Chat Indicator --- */
     --border-thickness: 3px;
@@ -37,6 +40,7 @@
     --border-hover-color: #64416b;
     --border-roundness: 3px;
     --transition-time: 500ms;
+    
     /* ----- Channel Indicators --- */
     --indicator-hovered: rgba(152, 100, 163, 0.09);
     --indicator-rounding: 0;
@@ -52,7 +56,7 @@
     --indicator-connected-border: rgba(var(--indicator-connected), 0.55);
     --indicator-connected-background: rgba(var(--indicator-connected), 0.1);
     --indicator-connected-hover: rgba(var(--indicator-connected), 0.18);
-    
+
     /* ---------- Base Discord Colors ---------- */
     /* ----- Default Theme --- */
     --background-primary: var(--midnightmars-primary);
@@ -64,6 +68,7 @@
     --channeltextarea-background: var(--midnightmars-secondary-alt);
     --elevation-low: 0 1px 0 rgba(4, 4, 5, 0.2), 0 1.5px 0 rgba(6, 6, 7, 0.05), 0 2px 0 rgba(4, 4, 5, 0.05);
     --elevation-high: 0 8px 16px rgba(0, 0, 0, 0.24);
+
     /* ----- Text --- */
     --text-normal: #fbfbfb;
     --text-muted: #b2a6b6;
@@ -75,21 +80,25 @@
     --interactive-muted: #6f5e72;
     --header-primary: var(--text-normal);
     --header-secondary: #c9c9c9;
+
     /* ----- Modifiers --- */
     --background-modifier-selected: rgb(var(--midnightmars-modifiers), 0.09);
     --background-modifier-hover: rgb(var(--midnightmars-modifiers), 0.12);
     --background-modifier-active: rgb(var(--midnightmars-modifiers), 0.18);
     --background-modifier-accent: rgba(170, 150, 176, 0.149);
+
     /* ----- Toasts --- */
     --toast-background: var(--midnightmars-primary);
     --toast-header: var(--midnightmars-tertiary);
     --toast-contents: var(--midnightmars-secondary);
     --toast-box-shadow: rgba(0, 0, 0, .2);
     --toast-border: var(--midnightmars-tertiary);
+
     /* ----- Mentions --- */
     --background-mentioned: rgba(68, 109, 83, 0.15);
     --background-mentioned-hover: rgba(68, 109, 83, 0.25);
     --background-mentioned-border: var(--midnightmars-green);
+
     /* ----- Deprecated --- */
     --deprecated-card-bg: var(--midnightmars-secondary);
     --deprecated-card-editable-bg: var(--midnightmars-secondary);
@@ -104,10 +113,12 @@
 #app-mount .lookFilled-1Gx00P.colorBrand-3pXr91:not([disabled]):hover {
     background-color: var(--midnightmars-accent-dark);
 }
-#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV, #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV,
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6 {
     background-color: rgba(255, 255, 255, 0.1);
 }
-#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:not([disabled]):hover, #app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:not([disabled]):hover {
+#app-mount .lookFilled-1Gx00P.colorGrey-2DXtkV:not([disabled]):hover,
+#app-mount .lookFilled-1Gx00P.colorPrimary-3b3xI6:not([disabled]):hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
 #app-mount .container-3auIfb {
@@ -227,7 +238,8 @@
     background-color: var(--background-accent);
 }
 
-#app-mount .menu-3sdvDG .item-1tOPte:not(.colorDanger-2qLCe1).focused-3afm-j, #app-mount .menu-3sdvDG .item-1tOPte:not(.colorDanger-2qLCe1):active {
+#app-mount .menu-3sdvDG .item-1tOPte:not(.colorDanger-2qLCe1).focused-3afm-j,
+#app-mount .menu-3sdvDG .item-1tOPte:not(.colorDanger-2qLCe1):active {
     background-color: var(--midnightmars-accent);
 }
 
@@ -238,11 +250,13 @@
     margin-top: 26px;
 }
 
-#app-mount .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-thumb, #app-mount .scrollerBase-289Jih.auto-Ge5KZx::-webkit-scrollbar-thumb {
+#app-mount .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-thumb,
+#app-mount .scrollerBase-289Jih.auto-Ge5KZx::-webkit-scrollbar-thumb {
     background-color: var(--background-secondary-alt);
     border-radius: var(--border-radius);
 }
-#app-mount .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-track, #app-mount .scrollerBase-289Jih.auto-Ge5KZx::-webkit-scrollbar-track {
+#app-mount .scrollerBase-289Jih.disableScrollAnchor-3V9UtP::-webkit-scrollbar-track,
+#app-mount .scrollerBase-289Jih.auto-Ge5KZx::-webkit-scrollbar-track {
     background-color: var(--background-secondary);
     border-radius: var(--border-radius);
 }
@@ -276,8 +290,11 @@
     content: "MIDNIGHT MARS";
     position: absolute;
     font-family: "Fredoka One";
-    background: -webkit-gradient(linear, right top, left top, color-stop(60%, #C779D0), to(#FEAC5E));
-    background: linear-gradient(270deg, #C779D0 60%, #FEAC5E);
+    background: -webkit-gradient(linear, right top, left top, color-stop(60%,
+#C779D0), to(#FEAC5E));
+    background: linear-gradient(270deg,
+#C779D0 60%,
+#FEAC5E);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -1166,51 +1183,6 @@
 }
 #app-mount .layer-3QrUeG[aria-label*=USER_SETTINGS] .option-n0icdO.selected-mKYnfr {
     background-color: var(--midnightmars-accent);
-}
-
-.userPopout-3XzG_A .header-2BwW8b {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-}
-.userPopout-3XzG_A .wrapper-3t9DeA::after {
-    content: "";
-    position: fixed;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    pointer-events: none;
-    opacity: 0.5;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: var(--user-popout-position) center;
-    background-image: var(--user-background);
-}
-
-.root-SR8cQa > div:not(.body-3ND3kc) {
-    -webkit-transform: translateZ(0);
-            transform: translateZ(0);
-}
-.root-SR8cQa > div:not(.body-3ND3kc) .header-QKLPzZ .wrapper-3t9DeA::after {
-    content: "";
-    position: fixed;
-    top: 0 !important;
-    left: 0 !important;
-    width: 100%;
-    height: 100%;
-    opacity: 0.5;
-    z-index: 0 !important;
-    pointer-events: none;
-    background: var(--user-background) center/cover no-repeat;
-}
-.root-SR8cQa > div:not(.body-3ND3kc) .header-QKLPzZ .wrapper-3t9DeA svg {
-    z-index: 1;
-    position: relative;
-}
-.root-SR8cQa > div:not(.body-3ND3kc) .headerInfo-30uryT, .root-SR8cQa > div:not(.body-3ND3kc) .tabBarItem-1b8RUP, .root-SR8cQa > div:not(.body-3ND3kc) .activity-1ythUs {
-    z-index: 1;
-    position: relative;
 }
 
 :root {
