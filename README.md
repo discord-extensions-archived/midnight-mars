@@ -1,3 +1,12 @@
+# Sunsetting Midnight Mars
+This theme has been broken for quite some time and I honestly don't see myself fixing it ever. As of April 10th, 2022, development on Midnight Mars will cease. If anyone is interested in maintaing this theme themselves, feel free to.
+
+I no longer enjoy what this theme once was, and quite honestly it was rushed and not that good. I don't plan on ever reworking this specific theme because there's so much I just do not enjoy with it.
+
+If you're interested in something similar to Midnight Mars with a deep purple color palette, I am making another theme so make sure you keep an eye on [Midnight Essence](https://github.com/discord-extensions/midnight-essence/). It'll be ready sometime in the future (you can also check out the dev branch for something that is insanely broken if you wanna check it out now and give feedback).
+
+Thank you to everyone who used this theme. I appreciate your support. I'm sorry if I let anyone down with this notice.
+
 # Midnight Mars
 A simple, nice looking and deep purple theme inspired by **midnight** on **Mars**!
 
